@@ -14,13 +14,14 @@ body{
 header{
     width: 100%;
     height: 10vh;
-    background-color: #2B002B;
+    background-color: #4e0000;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 6px 6px 4px 0px rgba(0, 0, 0, 0.25);
     position: fixed;
     z-index: 2;
+    
 }
 
 .logo{
@@ -35,6 +36,22 @@ header{
     width: 25%;
     height: 65%;
     margin-left: 20%;
+}
+
+.nome{
+    width: 7.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.nome > a{
+    text-decoration: none;
+    color: snow;
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    cursor:default;
 }
 
 .opcoes{
@@ -64,13 +81,13 @@ header{
 }
 
 .opcoes > ul > li > a{
-    color: #fff;
+    color: snow;
     text-decoration: none;
     font-weight: bolder;
 }
 
 .opcoes > ul > li > a:hover{
-    border-bottom: solid 3px #909a92;
+    border-bottom: solid 3px #8e0000;
 }
 
 .opcoes > ul > li > ul{
@@ -81,7 +98,7 @@ header{
     display: flex;
     width: 35%;
     height: 220%;
-    background-color: #744F78;
+    background-color: #fcf2f2;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
@@ -101,18 +118,18 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: solid 0.5px #fff;
+    border-bottom: solid 0.5px red;
 }
 
 .menu-drop > li > a{
-    color: #fff;
+    color: #f75939;
     text-decoration: none;
     font-weight: 300;
     animation: drop-font 0.2s ease-out;
 }
 
 .menu-drop > li > a:hover{
-    color: #909a92;
+    color: red;
 }
 
 .linkedin{
@@ -121,6 +138,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: end;
+    color: snow;
 }
 
 .linkedin > a{
@@ -137,7 +155,7 @@ header{
 }
 
 .github{
-    width: 15%;
+    width: 10%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -167,3 +185,11 @@ header{
     font-size: 4.5rem;
 }
 
+.body-allison{
+    width: 100%;
+    height: 270vh;
+    background-image: url(./imagens/deus\ alisson.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
